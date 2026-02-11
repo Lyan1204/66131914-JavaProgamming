@@ -12,9 +12,9 @@ public class TinhTienLuong {
 		double LuongTheoGio;
 		double TongLuong;
 
-		System.out.println("Nhập số giờ làm: ");
+		System.out.print("Nhập số giờ làm: ");
 		SoGioLam = scanner.nextDouble();
-		System.out.println("Nhập số lương theo giờ: ");
+		System.out.print("Nhập số lương theo giờ: ");
 		LuongTheoGio = scanner.nextDouble();
 		
 		if(SoGioLam <= 40) {
