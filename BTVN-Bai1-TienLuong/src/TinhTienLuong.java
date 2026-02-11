@@ -27,6 +27,8 @@ public class TinhTienLuong {
 		System.out.println("Lương theo giờ: " + LuongTheoGio + " đồng");
 		System.out.println("Tổng lương: " + TongLuong + " đồng");
 		System.out.println("Tổng lương (VND): " + String.format("%,.0f", TongLuong));
+		
+		scanner.close();
 	}
 
 }
