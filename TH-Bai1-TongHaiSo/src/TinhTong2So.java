@@ -15,6 +15,7 @@ public class TinhTong2So {
 		double sum = num1 + num2;
 		
 		System.out.printf("Tổng của %.2f và %.2f là: %.2f%n", num1, num2, sum);
+		System.out.printf("Tổng của %.2f và %.2f là: %.2f", num1, num2, sum);
 		
 		scanner.close();
 	}
