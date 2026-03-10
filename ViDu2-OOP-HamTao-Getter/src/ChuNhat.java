@@ -36,6 +36,8 @@ public class ChuNhat {
 	}
 	
 	//Các phương thức khác
-	
+	public String toString() {
+		
+	}
 	
 }
