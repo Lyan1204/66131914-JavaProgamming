@@ -24,11 +24,13 @@ public class Run {
 		System.out.print("\nHình chữ nhật sau khi thay đổi chiều dài\n");
 		System.out.print("Hình cn1 có chiều dài là : ");
 		System.out.print(cn1_dai);
-		System.out.print("\nHình cn1 có chiều rộng là: " + cn1_rong);
+		System.out.println("\nHình cn1 có chiều rộng là: " + cn1_rong);
 		
-		
-		//Sử dụng phương thức toString
+		//Sử dụng phương thức toString 
 		System.out.print(cn1.toString());
+
+
+		
 	}
 
 }
