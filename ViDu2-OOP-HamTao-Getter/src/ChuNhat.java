@@ -37,7 +37,14 @@ public class ChuNhat {
 	
 	//Các phương thức khác
 	public String toString() {
-		
+		//Tóm tắt thông tin của đối tượng
+		//Thành một chuỗi, để in ra màn hình 
+
+		String s = "\nHình này, có chiều dài = ";
+		s = s + dai;
+		s = s + "và chiều rộng =" + rong;
+
+		return s;
 	}
 	
 }
