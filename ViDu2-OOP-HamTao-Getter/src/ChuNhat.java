@@ -42,7 +42,7 @@ public class ChuNhat {
 
 		String s = "\nHình này, có chiều dài = ";
 		s = s + dai;
-		s = s + "và chiều rộng =" + rong;
+		s = s + " và chiều rộng = " + rong;
 
 		return s;
 	}
