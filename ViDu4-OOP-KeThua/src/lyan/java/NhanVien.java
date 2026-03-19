@@ -7,8 +7,9 @@ public class NhanVien {
 	private String hoTen;
 	private double luongCoBan;
 	
-	//Hàm tạo
+	//Hàm tạo	
 	public NhanVien(String maNhanVien, String tenNhanVien, double luongCoBan) {
+		super();
 		this.maNV = maNhanVien;
 		this.hoTen = tenNhanVien;
 		this.luongCoBan = luongCoBan;
@@ -18,10 +19,11 @@ public class NhanVien {
 		super();
 	}
 	
+	
 	public double tinhLuong() {
 		return luongCoBan;
 	}
-
+	
 	@Override
 	public String toString() {
 		String chuoiXuat="";
@@ -39,6 +41,8 @@ public class NhanVien {
 		System.out.println("Họ tên: " + hoTen);
 		System.out.println("Lương cơ bản: " + luongCoBan);
 	}
+	
+	//getter/setter
 	
 	
 }
