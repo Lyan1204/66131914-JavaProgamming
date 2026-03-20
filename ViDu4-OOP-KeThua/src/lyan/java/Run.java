@@ -8,8 +8,10 @@ public class Run {
 		//nv1.hienThongTin
 		System.out.println(nv1.toString());
 		
-		NhanVienVanPhong nvVanPhong1 = new NhanVienVanPhong("002", "Trần Thị Như Quy", 10, 50000);
+		NhanVienVanPhong nvVanPhong1 = new NhanVienVanPhong(" 002", "Trần Thị Như Quy", 5000000, 10, 50000);
 		System.out.println(nvVanPhong1.toString());
+		
+		nvVanPhong1.hienThiThongTin();
 		
 		
 	}	

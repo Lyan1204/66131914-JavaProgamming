@@ -37,12 +37,38 @@ public class NhanVien {
 	}
 	
 	public void hienThiThongTin() {
-		System.out.println("Mã NV: " + maNV);
+		System.out.println("\nMã NV: " + maNV);
 		System.out.println("Họ tên: " + hoTen);
 		System.out.println("Lương cơ bản: " + luongCoBan);
 	}
-	
+
 	//getter/setter
+	public String getMaNV() {
+		return maNV;
+	}
+
+	public void setMaNV(String maNV) {
+		this.maNV = maNV;
+	}
+
+	public String getHoTen() {
+		return hoTen;
+	}
+
+	public void setHoTen(String hoTen) {
+		this.hoTen = hoTen;
+	}
+
+	public double getLuongCoBan() {
+		return luongCoBan;
+	}
+
+	public void setLuongCoBan(double luongCoBan) {
+		this.luongCoBan = luongCoBan;
+	}
+	
+	
+	
 	
 	
 }

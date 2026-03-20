@@ -14,7 +14,7 @@ public class NhanVienVanPhong extends NhanVien {
 	
 	@Override
 	public double tinhLuong() {
-		return luongCoBan + (soGioLamThem * luongThemMoiGio);
+		return super.getLuongCoBan() + soGioLamThem * luongThemMoiGio;
 	}	
 	
 	@Override
@@ -25,7 +25,16 @@ public class NhanVienVanPhong extends NhanVien {
 		System.out.println("Tổng lương: " + this.tinhLuong());
 		System.out.println("Chức vụ: Nhân viên văn phòng");
 	}
-	//getter/setter
 	
-	//Các phương thức
+	@Override
+	public String toString() {
+		String chuoiXuat=super.toString();
+		chuoiXuat = chuoiXuat + "\nSố giờ làm thêm: " + soGioLamThem;
+		chuoiXuat = chuoiXuat + "\nLương làm thêm/giờ: " + luongThemMoiGio;
+		chuoiXuat = chuoiXuat + "\nTổng lương: " + this.tinhLuong();
+		return chuoiXuat;
+	}
+	
+	
+	//getter/setter
 }
