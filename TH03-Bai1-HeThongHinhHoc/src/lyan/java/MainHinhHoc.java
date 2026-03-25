@@ -3,8 +3,18 @@ package lyan.java;
 public class MainHinhHoc {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		HinhChuNhat hcn = new HinhChuNhat("Đỏ, 4, 7");
+		HinhTron ht = new HinhTron("Vàng, 8");
+		HinhTamGiac htg = new HinhTamGiac("Xanh, 3, 5, 10");
 
+		
+		System.out.println("Hình chữ nhât");
+		hcn.hienThiThongTin();
+		System.out.println("Hình tròn");
+		ht.hienThiThongTin();
+		System.out.println("hình tam giác");
+		htg.hienThiThongTin();
+		
 	}
 
 }
