@@ -4,7 +4,7 @@ public class TaiKhoanThanhToan extends TaiKhoan{
 	private double hanMucRut;
 	private double phiGiaoDich;
 	
-	public TaiKhoanThanhToan(double soTaiKhoan, String tenChuTaiKhoan, double soDu, double hanMucRut, double phiGiaoDich) {
+	public TaiKhoanThanhToan(String soTaiKhoan, String tenChuTaiKhoan, double soDu, double hanMucRut, double phiGiaoDich) {
 		super(soTaiKhoan, tenChuTaiKhoan, soDu);
 		this.hanMucRut = hanMucRut;
 		this.phiGiaoDich = phiGiaoDich;
@@ -22,7 +22,7 @@ public class TaiKhoanThanhToan extends TaiKhoan{
 			return;
 		}
 		
-		double tongTienTru = soTien - phiGiaoDich;
+		double tongTienTru = soTien + phiGiaoDich;
 		if(tongTienTru > soDu) {
 			System.out.println("Số dư không đủ");
 			return;
@@ -41,6 +41,6 @@ public class TaiKhoanThanhToan extends TaiKhoan{
 		System.out.println("Tài khoản thanh toán");
 		super.hienThiThongTin();
 		System.out.printf("Hạn mức rút: %.2f triệu/lần%n", hanMucRut);
-		System.out.printf("Phí giao dịch: %.2f triệu/lần%n");
+		System.out.printf("Phí giao dịch: %.2f triệu/lần%n", phiGiaoDich);
 	}
 }

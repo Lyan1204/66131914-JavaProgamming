@@ -2,11 +2,11 @@ package lyan.java;
 
 public class TaiKhoan {
 	
-	protected double soTaiKhoan;
+	protected String soTaiKhoan;
 	protected String tenChuTaiKhoan;
 	protected double soDu;
 	
-	public TaiKhoan(double soTaiKhoan, String tenChuTaiKhoan, double soDu) {
+	public TaiKhoan(String soTaiKhoan, String tenChuTaiKhoan, double soDu) {
 		this.soTaiKhoan = soTaiKhoan;
 		this.tenChuTaiKhoan = tenChuTaiKhoan;
 		this.soDu = soDu;
@@ -18,7 +18,7 @@ public class TaiKhoan {
 			return;
 		}
 		soDu += soTien;
-		System.out.printf("Gửi thành công; %.2f triệu đồng. Số dư hiện tại: %.2f triệu đồng.");
+		System.out.printf("Gửi thành công; %.2f triệu đồng. Số dư hiện tại: %.2f triệu đồng.", soTien, soDu);
 	}
 	
 	public void rutTien(double soTien) {
@@ -31,7 +31,7 @@ public class TaiKhoan {
 			return;
 		}
 		soDu -= soTien;
-		System.out.printf("Rút thành công: %.2f triệu đồng. Số dư còn lại: %.2f triệu đồng");
+		System.out.printf("Rút thành công: %.2f triệu đồng. Số dư còn lại: %.2f triệu đồng%n");
 	}
 	
 	public void hienThiThongTin() {
@@ -39,8 +39,4 @@ public class TaiKhoan {
 		System.out.println("Tên tài khoản: " + tenChuTaiKhoan);
 		System.out.printf("Số dư: %.2f triệu đồng%n", soDu);
 		}
-	}
-	
-	
-
 }

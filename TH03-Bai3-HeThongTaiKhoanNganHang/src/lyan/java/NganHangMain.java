@@ -4,7 +4,7 @@ public class NganHangMain {
 
 	public static void main(String[] args) {
 		//Tài khoản tiết kiệm
-		TaiKhoanTietKiem tktk = new TaiKhoanTietKiem("0123", "Nguyễn Ngọc Luân", 200.5, 12, 10,5);
+		TaiKhoanTietKiem tktk = new TaiKhoanTietKiem("0123", "Nguyễn Ngọc Luân", 200.5, 12, 10.5);
 		tktk.hienThiThongTin();
 		tktk.guiTien(50);
 		tktk.rutTien(40);

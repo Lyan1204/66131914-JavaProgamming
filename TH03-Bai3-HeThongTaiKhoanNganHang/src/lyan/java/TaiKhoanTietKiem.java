@@ -4,7 +4,7 @@ public class TaiKhoanTietKiem extends TaiKhoan{
 	private int kyHan; //Tháng
 	private double laiSuat;
 	
-	public TaiKhoanTietKiem(double soTaiKhoan, String tenChuTaiKhoan, double soDu, int kyHan, double laiSuat) {
+	public TaiKhoanTietKiem(String soTaiKhoan, String tenChuTaiKhoan, double soDu, int kyHan, double laiSuat) {
 		super(soTaiKhoan, tenChuTaiKhoan, soDu);
 		this.kyHan = kyHan;
 		this.laiSuat = laiSuat;
