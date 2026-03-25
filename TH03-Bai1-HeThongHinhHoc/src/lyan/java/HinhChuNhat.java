@@ -1,6 +1,6 @@
 package lyan.java;
 
-public class HinhChuNhat {
+class HinhChuNhat extends HinhHoc {
 	
 	private double chieuDai;
 	private double chieuRong;

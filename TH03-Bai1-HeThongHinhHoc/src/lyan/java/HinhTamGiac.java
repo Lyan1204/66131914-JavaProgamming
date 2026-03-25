@@ -1,15 +1,15 @@
 package lyan.java;
 
-public class HinhTamGiac {
+class HinhTamGiac extends HinhHoc {
 	private double canhA;
 	private double canhB;
 	private double canhC;
 	
-	public hinhTamGiac(String mauSac, double canhA, double canhB, double canhC) {
+	public HinhTamGiac(String mauSac, double canhA, double canhB, double canhC) {
 		super("Hình tam giác" , mauSac);
 		this.canhA = canhA;
 		this.canhB = canhB;
-		this.canhB = canhB;
+		this.canhC = canhB;
 	}
 	
 	public boolean kiemTraHopLe() {
@@ -32,7 +32,7 @@ public class HinhTamGiac {
 	@Override
 	public void hienThiThongTin() {
 		super.hienThiThongTin();
-		System.out.println("Cạnh A: " + canhA " Cạnh B: " + canhB " Cạnh C: " + canhC);
+		System.out.println("Cạnh A: " + canhA + ", Cạnh B: " + canhB  + ", Cạnh C: " + canhC);
 		System.out.println("Hợp lệ: " + (kiemTraHopLe() ? "Có" : "Không"));
 		
 	}
