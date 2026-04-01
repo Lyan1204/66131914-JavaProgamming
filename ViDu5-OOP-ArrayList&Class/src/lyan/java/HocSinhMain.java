@@ -36,18 +36,15 @@ public class HocSinhMain {
 		
 		// Hỏi user nhập vào tên, tuổi, lớp
 		System.out.print("\nMời nhập tên của học sinh thứ 3: ");
-		banPhim.nextLine();
 		String tenHS3 = banPhim.nextLine();
-		
 		hs3.setTenHS(tenHS3);
 		
 		System.out.print("Mời nhập tuổi của học sinh thứ 3: ");
-		banPhim.nextLine();
 		short tuoiHS3 = banPhim.nextShort();
+		banPhim.nextLine();
 		hs3.setTuoiHS(tuoiHS3);
 		
-		System.out.print("Mời nhập lớp của học sinh thứ 3");
-		banPhim.nextLine();
+		System.out.print("Mời nhập lớp của học sinh thứ 3: ");
 		String lopHS3 = banPhim.nextLine();
 		hs3.setLopHS(lopHS3);
 		
@@ -58,20 +55,21 @@ public class HocSinhMain {
 		// Nhập danh sách N học sinh
 		ArrayList<HocSinh> dsHocSinh = new ArrayList<HocSinh>();
 		
-		// Nhập N
-		System.out.print("Nhập số lượng học sinh: ");
+		// Nhập N học sinh
+		System.out.print("\nNhập số lượng học sinh: ");
 		int n = banPhim.nextInt();
 		banPhim.nextLine();
 		
 		for(int i = 0; i < n; i++) {
-			System.out.print("Nhập học sinh thứ " + (i + 1) +": ");
+			System.out.print("Nhập học sinh thứ " + (i + 1));
 			HocSinh hs = new HocSinh();
 			
-			System.out.print("Họ và tên: ");
+			System.out.print("\nHọ và tên: ");
 			hs.setTenHS(banPhim.nextLine());
 			
 			System.out.print("Tuổi: ");
 			hs.setTuoiHS(banPhim.nextShort());
+			banPhim.nextLine();
 			
 			System.out.print("Lớp: ");
 			hs.setLopHS(banPhim.nextLine());
@@ -81,43 +79,48 @@ public class HocSinhMain {
 		
 		// In ra danh sách vừa nhập
 		System.out.print("Danh sách học sinh vừa nhập");
-		for(int i = n; i < n; i++) {
+		for(int i = n; i < dsHocSinh.size(); i++) {
 			System.out.println(dsHocSinh.get(i).toString());
 		}
 		
 		// Bổ sung thêm 1 học sinh mới
 		HocSinh hsThem = new HocSinh();
 		
-		System.out.print("Họ và tên: ");
+		System.out.print("\nHọ và tên: ");
 		hsThem.setTenHS(banPhim.nextLine());
 		
 		System.out.print("Tuổi: ");
 		hsThem.setTuoiHS(banPhim.nextShort());
+		banPhim.nextLine();
 		
 		System.out.print("Lớp: ");
 		hsThem.setLopHS(banPhim.nextLine());
 		
 		dsHocSinh.add(hsThem);
+		
 		// Xuất lại danh sách học sinh
 		System.out.print("Danh sách sau khi thêm học sinh mới");
-		for(int i = n; i < n; i++) {
+		for(int i = 0; i < dsHocSinh.size(); i++) {
+			System.out.print("Học sinh thứ" + (i + 1) + ":");
 			System.out.println(dsHocSinh.get(i).toString());
 		}
 		
 		// Xóa học sinh tên Tuấn
-		for(int i = 0; i < n; i++) {
+		for(int i = 0; i < dsHocSinh.size(); i++) {
 			HocSinh hs = dsHocSinh.get(i);
-			if(hs.getTenHS()=="Tuấn") {
+			if(hs.getTenHS().toLowerCase().contains("luân")) {
 				dsHocSinh.remove(hs);
 				break;
 			}
 		}
 		
 		// In lại danh sách
-		System.out.print("\nIn lại danh sách học sinh sau khi xóa ");;
-		for(int i = n; i < n; i++) {
+		System.out.print("\nDanh sách học sinh sau khi xóa ");;
+		for(int i = 0; i < dsHocSinh.size(); i++) {
+			System.out.print("Học sinh thứ" + (i + 1) + ":");
 			System.out.print(dsHocSinh.get(i).toString());
 		}
+		banPhim.close();
 	}
 
 }
