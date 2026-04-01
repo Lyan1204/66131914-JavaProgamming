@@ -46,7 +46,7 @@ public class HocSinh {
 	@Override
 	public String toString() {
 		String chuoiXuat;
-		chuoiXuat = "Họ và tên: " + tenHS;
+		chuoiXuat = "\nHọ và tên: " + tenHS;
 		chuoiXuat = chuoiXuat + "\nTuổi HS: " + tuoiHS;
 		chuoiXuat = chuoiXuat + "\nLớp HS: " + lopHS;
 		return chuoiXuat;

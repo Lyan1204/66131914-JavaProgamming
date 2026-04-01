@@ -79,14 +79,14 @@ public class HocSinhMain {
 		
 		// In ra danh sách vừa nhập
 		System.out.print("Danh sách học sinh vừa nhập");
-		for(int i = n; i < dsHocSinh.size(); i++) {
+		for(int i = 0; i < dsHocSinh.size(); i++) {
 			System.out.println(dsHocSinh.get(i).toString());
 		}
 		
 		// Bổ sung thêm 1 học sinh mới
 		HocSinh hsThem = new HocSinh();
-		
-		System.out.print("\nHọ và tên: ");
+		System.out.print("Nhập thêm học sinh");
+		System.out.print("Họ và tên: ");
 		hsThem.setTenHS(banPhim.nextLine());
 		
 		System.out.print("Tuổi: ");
