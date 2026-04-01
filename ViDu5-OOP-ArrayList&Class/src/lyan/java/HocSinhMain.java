@@ -61,6 +61,7 @@ public class HocSinhMain {
 		// Nhập N
 		System.out.print("Nhập số lượng học sinh: ");
 		int n = banPhim.nextInt();
+		banPhim.nextLine();
 		
 		for(int i = 0; i < n; i++) {
 			System.out.print("Nhập học sinh thứ " + (i + 1) +": ");
@@ -74,10 +75,49 @@ public class HocSinhMain {
 			
 			System.out.print("Lớp: ");
 			hs.setLopHS(banPhim.nextLine());
+			
+			dsHocSinh.add(hs);
 		}
 		
+		// In ra danh sách vừa nhập
+		System.out.print("Danh sách học sinh vừa nhập");
+		for(int i = n; i < n; i++) {
+			System.out.println(dsHocSinh.get(i).toString());
+		}
 		
+		// Bổ sung thêm 1 học sinh mới
+		HocSinh hsThem = new HocSinh();
 		
+		System.out.print("Họ và tên: ");
+		hsThem.setTenHS(banPhim.nextLine());
+		
+		System.out.print("Tuổi: ");
+		hsThem.setTuoiHS(banPhim.nextShort());
+		
+		System.out.print("Lớp: ");
+		hsThem.setLopHS(banPhim.nextLine());
+		
+		dsHocSinh.add(hsThem);
+		// Xuất lại danh sách học sinh
+		System.out.print("Danh sách sau khi thêm học sinh mới");
+		for(int i = n; i < n; i++) {
+			System.out.println(dsHocSinh.get(i).toString());
+		}
+		
+		// Xóa học sinh tên Tuấn
+		for(int i = 0; i < n; i++) {
+			HocSinh hs = dsHocSinh.get(i);
+			if(hs.getTenHS()=="Tuấn") {
+				dsHocSinh.remove(hs);
+				break;
+			}
+		}
+		
+		// In lại danh sách
+		System.out.print("\nIn lại danh sách học sinh sau khi xóa ");;
+		for(int i = n; i < n; i++) {
+			System.out.print(dsHocSinh.get(i).toString());
+		}
 	}
 
 }
