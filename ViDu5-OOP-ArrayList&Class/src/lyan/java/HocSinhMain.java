@@ -1,5 +1,7 @@
 package lyan.java;
 
+import java.util.Scanner;
+
 public class HocSinhMain {
 
 	public static void main(String[] args) {
@@ -24,6 +26,13 @@ public class HocSinhMain {
 		System.out.print("\nTuổi của học sinh 2 là: " + hs2.getTuoiHS());
 		System.out.print("\nLớp của học sinh 2 là: " + hs2.getLopHS());
 		
+		
+		//=============NHẬP DƯ LIỆU TỪ BÀN PHÍM===========
+		Scanner banPhim = new Scanner(System.in);
+		// Nhập dữ liệu cho  học sinh thứ 3
+		// Hỏi user nhập vào tên, tuổi, lớp
+		System.out.print("\nMời nhập thông tin của học sinh thứ 3");
+		banPhim.nextLine();
 		
 		
 	}
