@@ -2,10 +2,16 @@ package lyan.java;
 
 public class HocSinh {
 	private String tenHS;
-	private int tuoiHS;
+	private short tuoiHS;
 	private String lopHS;
 	
-	public HocSinh(String tenHS, int tuoiHS, String lopHS) {
+	// Các hàm tạo 
+	public HocSinh() {
+		
+	}
+	
+	public HocSinh(String tenHS, short tuoiHS, String lopHS) {
+		super();
 		this.tenHS = tenHS;
 		this.tuoiHS = tuoiHS;
 		this.lopHS = lopHS;
@@ -20,11 +26,11 @@ public class HocSinh {
 		this.tenHS = tenHS;
 	}
 
-	public int getTuoiHS() {
+	public short getTuoiHS() {
 		return tuoiHS;
 	}
 
-	public void setTuoiHS(int tuoiHS) {
+	public void setTuoiHS(short tuoiHS) {
 		this.tuoiHS = tuoiHS;
 	}
 
