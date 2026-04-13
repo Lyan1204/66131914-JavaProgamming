@@ -1,5 +1,6 @@
 package lyan.java;
 
-public class CoTheKetNoiVoiInternet {
-
+public interface CoTheKetNoiVoiInternet {
+	void ketNoiWifi(String tenMang);
+	void ngatKetNoi();
 }

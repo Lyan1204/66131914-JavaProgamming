@@ -1,5 +1,6 @@
 package lyan.java;
 
-public class CoTheCamUng {
-
+public interface CoTheCamUng {
+	void cham(int x, int y);
+	void vuot(String huong);
 }
