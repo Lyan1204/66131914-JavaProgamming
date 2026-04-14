@@ -1,5 +1,5 @@
 package lyan.java;
 
-public class CoTheXepLoai {
-
+public interface CoTheXepLoai {
+	String xepLoai();
 }

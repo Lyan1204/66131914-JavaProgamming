@@ -1,5 +1,6 @@
 package lyan.java;
 
-public class CoTheTinhLuong {
+public interface CoTheTinhLuong {
 
+	double tinhLuong();
 }
