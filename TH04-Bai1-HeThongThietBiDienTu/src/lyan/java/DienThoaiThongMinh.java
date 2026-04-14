@@ -22,12 +22,12 @@ public class DienThoaiThongMinh extends ThietBiDienTu  implements CoTheKetNoiVoi
 	}
 	
 	@Override 
-	publci void ketNoiWifi(String tenMang) {
+	public void ketNoiWifi(String tenMang) {
 		System.out.println("[" + ten + "] Đã kết nối wifi: " + tenMang);
 	}
 	
 	@Override 
-	public void ngatKetNoi(String tenMang) {
+	public void ngatKetNoi() {
 		System.out.println("[" + ten + "] Đã ngắt kết nối wifi");
 	}
 	

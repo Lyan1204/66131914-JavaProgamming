@@ -27,7 +27,8 @@ public class Laptop extends ThietBiDienTu implements CoTheKetNoiVoiInternet {
 		System.out.println("[" + ten + "] Laptop đã kết nối với wifi");
 	}
 	
-	@Override void ngatKetNoi() {
+	@Override
+	public void ngatKetNoi() {
 		System.out.println("[" + ten + "] Laptop đã ngắt kết nối với wifi");
 	}
 	

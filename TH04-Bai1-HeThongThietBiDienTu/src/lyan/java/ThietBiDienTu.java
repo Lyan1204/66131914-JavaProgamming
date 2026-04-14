@@ -1,9 +1,9 @@
 package lyan.java;
 
 public abstract class ThietBiDienTu {
-	private String ten;
-	private double gia;
-	private String hangSanXuat;
+	protected String ten;
+	protected double gia;
+	protected String hangSanXuat;
 	
 	
 	//Constructer
@@ -21,8 +21,8 @@ public abstract class ThietBiDienTu {
 	//Phương thức hiển thị thông tin 
 	public void hienThiThongTin() {
 		System.out.print("Thông tin thiết bị");
-		System.out.print("Tên thiết bị: " + ten);
-		System.out.print("Giá: " + gia);
-		System.out.print("Hãng sản xuất: " + hangSanXuat);
+		System.out.print("\nTên thiết bị: " + ten);
+		System.out.printf("\nGiá: %,.0f VNĐ%n", gia);
+		System.out.print("\nHãng sản xuất: " + hangSanXuat);
 	}
 }

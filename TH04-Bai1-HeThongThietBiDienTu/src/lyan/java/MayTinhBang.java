@@ -29,7 +29,7 @@ public class MayTinhBang  extends ThietBiDienTu implements CoTheKetNoiVoiInterne
 		System.out.println("[" + ten + "] Máy tính bảng đã ngắt kết nối wifi");
 	}
 	
-	@OVerride
+	@Override
 	public void cham(int x, int y) {
 		System.out.println("[" + ten + "] Chạm tại (" + x + "," + y + ")");
 	}
