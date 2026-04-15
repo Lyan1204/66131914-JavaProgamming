@@ -3,6 +3,7 @@ package lyan.java;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.FileInputStream;
 
 public class ViDuDocStream {
 
@@ -13,7 +14,7 @@ public class ViDuDocStream {
 		
 		//Khai báo biến đối tượng InputStreamReader
 		
-		InputStreamReader ipReader = new InputStreamReader(System.in);
+		InputStreamReader ipReader = new InputStreamReader(fInput);
 		
 		//Khai báo biến đối tượng Buffer
 		
@@ -25,11 +26,14 @@ public class ViDuDocStream {
 		//Đọc 1 dòng dữ liệu từ file, cất vào biến chuỗi
 		String line1 = bufReader.readLine();
 		
-		//In ra dòng đọc được
+		//In ra dòng 1
 		System.out.print(line1);
+		
+		//Đọc dòng 2 từ file
 		String line2 = bufReader.readLine();
-		//In ra dòng đọc được
-		System.out.println("line2");
+		
+		//In ra dòng 2
+		System.out.println(line2);
 		
 		
 		
