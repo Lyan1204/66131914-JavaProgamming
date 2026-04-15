@@ -1,7 +1,7 @@
 package lyan.java;
 
 import java.io.*;
-class ReadChar{
+class ViDu72DocTungKyTu{
 	public static void main(String[] args) throws IOException {
 		char c;
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
