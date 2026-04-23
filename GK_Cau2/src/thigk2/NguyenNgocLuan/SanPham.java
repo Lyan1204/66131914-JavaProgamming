@@ -56,8 +56,11 @@ public class SanPham {
 	//hiển thị thông tin sản phẩm
 	@Override
 	public String toString() {
-		return String.format("%-6s | %-25s | %-25s | %12.0f đ", maSP, tenSP, loaiSP, giaSP)
+		return "SanPham [maSP=" + maSP + ", tenSP=" + tenSP + ", loaiSP=" + loaiSP + ", giaSP=" + giaSP + "]";
 	}
+	
+	
+	
 	
 	
 }	
