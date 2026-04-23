@@ -6,13 +6,13 @@ import java.util.ArrayList;
 public class MainSanPham {
 
 	//In tiêu đề
-	public void inTieuDe() {
-		System.out.printf("%-6s | %-25s | %-25s | %-12f%n", "Mã sản phẩm", "Tên sản phẩm", "Loại sản phẩm", "Giá sản phẩm");
-		System.out.print("/n");
+	static void inTieuDe() {
+		System.out.printf("%-6s | %-25s | %-25s | %-12s%n", "Mã sản phẩm", "Tên sản phẩm", "Loại sản phẩm", "Giá sản phẩm");
+		System.out.print("\n");
 	}
 	
 	//In ra danh sách 
-	public void inDanhSach(ArrayList<SanPham> ds) {
+	 static void inDanhSach(ArrayList<SanPham> ds) {
 		inTieuDe();
 		for(SanPham sp : ds) {
 			System.out.println(sp); //gọi toString
@@ -56,9 +56,21 @@ public class MainSanPham {
 		
 		//Lọc sản phẩm loại thực phẩm chức năng
 		System.out.println("Sản phẩm loại Thực phẩm chức năng");
+		inTieuDe();
 		
-		
-		
+		   boolean coSanPham = false;
+	        for (SanPham sp : danhSach) {
+	            if (sp.getLoaiSP().equalsIgnoreCase("Thực phẩm chức năng")) {
+	                System.out.println(sp);
+	                coSanPham = true;
+	            }
+	        }
+
+	        if (!coSanPham) {
+	            System.out.println("Không có sản phẩm nào thuộc loại này.");
+	        }
+
+	        sc.close();
 		
 	}
 
