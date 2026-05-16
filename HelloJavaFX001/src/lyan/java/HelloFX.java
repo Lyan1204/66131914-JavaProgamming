@@ -4,6 +4,8 @@ import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
+import javafx.scene.Scene;          
+
 
 
 public class HelloFX extends Application{
@@ -15,9 +17,9 @@ public class HelloFX extends Application{
 		
 		
 		//
-		btn.setText("Xin chao JavaFX")
+		btn.setText("Xin chao JavaFX");
 		// Tao cua so 
-		StackPane root = new StacPane();
+		StackPane root = new StackPane();
 		
 		root.getChildren().add(btn);
 		
@@ -34,7 +36,7 @@ public class HelloFX extends Application{
 	
 	
 	public static void main(String[] args) {
-		Launch(args);
+		launch(args);
 		
 		
 	}
