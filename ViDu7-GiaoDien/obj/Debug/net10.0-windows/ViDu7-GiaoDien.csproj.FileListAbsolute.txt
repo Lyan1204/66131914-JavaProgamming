@@ -1,0 +1,17 @@
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\bin\Debug\net10.0-windows\ViDu7-GiaoDien.exe
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\bin\Debug\net10.0-windows\ViDu7-GiaoDien.deps.json
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\bin\Debug\net10.0-windows\ViDu7-GiaoDien.runtimeconfig.json
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\bin\Debug\net10.0-windows\ViDu7-GiaoDien.dll
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\bin\Debug\net10.0-windows\ViDu7-GiaoDien.pdb
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7_GiaoDien.CSS.resources
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.csproj.GenerateResource.cache
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.GeneratedMSBuildEditorConfig.editorconfig
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.AssemblyInfoInputs.cache
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.AssemblyInfo.cs
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.csproj.CoreCompileInputs.cache
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.sourcelink.json
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.dll
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\refint\ViDu7-GiaoDien.dll
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.pdb
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ViDu7-GiaoDien.genruntimeconfig.cache
+D:\Java\66131914-JavaProgamming\ViDu7-GiaoDien\obj\Debug\net10.0-windows\ref\ViDu7-GiaoDien.dll

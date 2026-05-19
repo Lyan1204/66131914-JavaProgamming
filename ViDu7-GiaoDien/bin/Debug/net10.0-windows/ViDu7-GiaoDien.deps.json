@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ViDu7-GiaoDien/1.0.0": {
+        "runtime": {
+          "ViDu7-GiaoDien.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ViDu7-GiaoDien/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

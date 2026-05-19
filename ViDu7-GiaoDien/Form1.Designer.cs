@@ -89,6 +89,7 @@
             txclear.TabIndex = 5;
             txclear.Text = "Clear";
             txclear.UseVisualStyleBackColor = false;
+            txclear.Click += txclear_Click;
             // 
             // CSS
             // 

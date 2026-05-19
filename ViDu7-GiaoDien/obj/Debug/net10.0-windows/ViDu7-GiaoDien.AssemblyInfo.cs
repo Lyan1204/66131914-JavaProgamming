@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViDu7-GiaoDien")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cb0c871c04a365d79a16b8fd0706fb5c2c7e67c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e48ece0fc15a62fab7bf07f5d411f67572b33b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ViDu7-GiaoDien")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViDu7-GiaoDien")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
